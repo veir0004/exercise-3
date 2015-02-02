@@ -17,6 +17,15 @@ html {
 	box-sizing: inherit;
 }
 
+h1{
+  color: $font-color;
+  text-align: center;
+}
+
+p{
+  color: $font-text;
+  text-align: center;
+}
 
 body{
   color: $mainbackground-color;
@@ -46,7 +55,7 @@ header {
   color:  $background-color;
   background-color: #ffffff;
   clear: both;   
-  padding: 20rem 5%;
+  padding: 5rem 5%;
 
 }
 
@@ -62,6 +71,7 @@ header {
       text-align: center; //moves menu li
       text-decoration: none;
       padding: 1em;
+      color: $text-color;
       }
     }//li
 
@@ -131,19 +141,25 @@ header {
   }
 
 .navigation{
-    padding:50px 60px;
+    padding:50px;
     display:inline-block;
     position:absolute;
     float: right;
+    color: $text-color;
+    color: #fff;
 
 }
 
 .navigation li{
   display: inline-block;
   float: right;
-
+  color: $text-color;
 }
-  
+
+.navigation nav a:hover{
+  color: $text-color;
+}
+
 }
 
 body.noscript .slide-menu{
